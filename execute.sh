@@ -10,8 +10,8 @@ RED='\033[1;31m'
 credits(){
 echo
 echo -e "${BOLD}===============================================${COLORF}"
-echo -e "${BOLD} developed by:${COLORF} ${BLUE}Eduardo Buzzi${COLORF}"
-echo -e "${BOLD}More s in:${COLORF} ${RED}https://github.com/edubuzzi${COLORF}"
+echo -e "${BOLD}Script developed by:${COLORF} ${BLUE}Eduardo Buzzi${COLORF}"
+echo -e "${BOLD}More scripts in:${COLORF} ${RED}https://github.com/edubuzzi${COLORF}"
 echo -e "${BOLD}===============================================${COLORF}"
 }
 
