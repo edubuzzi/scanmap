@@ -95,6 +95,10 @@ echo "8 => Exit"
 echo
 read -p "Your Choice => " CHOICE
 echo
+if [ "$CHOICE" = 8 ]
+then
+exit
+fi
 read -p "Source Port? (ex: 194, 443, 826) => " SRC
 if [ ! -z "$SRC" ] && [ "$SRC" -ge 1 ] && [ "$SRC" -le 65535 ]
 then
@@ -111,7 +115,6 @@ case $CHOICE in
 5) ScanVERSION ;;
 6) ;;
 7) ;;
-8) exit ;;
 *) principal ;;
 esac
 }
