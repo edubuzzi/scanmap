@@ -74,7 +74,6 @@ echo
 echo "IP: $IP"
 echo "PORT SERVICE VERSION"
 nmap -v $SRC -sV -p $PORTS $IP | grep "open" | awk '{print $1,$3,$4}' | grep -v "Discovered"
-echo
 rm SYNscan-ports-$IP-result.txt
 done
 rm SYNscan-ports-$RANsynp.txt
